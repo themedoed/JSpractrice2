@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <p class="calc-screen" id="screen">0</p>
+      <div class="row">
+        <button class="btn yellow">AC</button>
+        <button class="btn long_btn yellow">C</button>
+        <button class="btn yellow">/</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="onClickPlus(7)">7</button>
+        <button class="btn" onclick="onClickPlus(8)">8</button>
+        <button class="btn" onclick="onClickPlus(9)">9</button>
+        <button class="btn yellow">x</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="onClickPlus(4)">4</button>
+        <button class="btn" onclick="onClickPlus(5)">5</button>
+        <button class="btn" onclick="onClickPlus(6)">6</button>
+        <button class="btn yellow">-</button>
+      </div>
+      <div class="row">
+        <button class="btn" onclick="onClickPlus(1)">1</button>
+        <button class="btn" onclick="onClickPlus(2)">2</button>
+        <button class="btn" onclick="onClickPlus(3)">3</button>
+        <button class="btn yellow">+</button>
+      </div>
+      <div class="row">
+        <button class="btn long_btn" onclick="onClickPlus(0)">0</button>
+        <button class="btn">.</button>
+        <button class="btn yellow">=</button>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
